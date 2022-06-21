@@ -21,12 +21,12 @@ mapboxgl.accessToken =
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-71.104081, 42.365554],
+  center: [-105.096378, 39.888487],
   zoom: 14,
 });
 
 
-let marker = new mapboxgl.Marker().setLngLat([-71.092761, 42.357575]).addTo(map);
+let marker = new mapboxgl.Marker().setLngLat([-105.096378, 39.888487]).addTo(map);
 
 let counter = 0;
 function move() {
